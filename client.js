@@ -20,12 +20,12 @@ const connect = function () {
     // conn.write("Move: down");
     // conn.write("Move: left");
     // conn.write("Move: right");
-    setInterval(() => {
-      conn.write("Move: up");
-      conn.write("Move: left");
-      conn.write("Move: down");
-      conn.write("Move: right");
-    }, 1000); 
+    // setInterval(() => {
+    //   conn.write("Move: up");
+    //   conn.write("Move: left");
+    //   conn.write("Move: down");
+    //   conn.write("Move: right");
+    // }, 1000); 
   });
 
   
