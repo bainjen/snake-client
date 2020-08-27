@@ -38,6 +38,9 @@ const handleUserInput = (key) => {
   }
   if (key === 'x') {
     connection.write("Say: snails!");
+  }
+  if (key === 'e') {
+    connection.write("I like turtles");
 }
 };
 
