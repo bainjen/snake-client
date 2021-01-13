@@ -1,8 +1,16 @@
-const { connect } = require('./client');
-const { setupInput } = require('./input');
+const { connect } = require("./client");
+const { setupInput } = require("./input");
 
-
-console.log('Connecting ...');
+console.log("Connecting ...");
+//add conn in wasd module
 conn = connect();
-// console.log(conn);
+
 setupInput(conn);
+
+// const { connect } = require("./client");
+// const { setupInput } = require("./input");
+
+// console.log("Connecting ...");
+// conn = connect();
+// // console.log(conn);
+// setupInput(conn);
